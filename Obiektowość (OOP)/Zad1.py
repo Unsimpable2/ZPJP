@@ -6,7 +6,8 @@ class Student:
     def is_passed(self):
         average_marks = sum(self.marks) / len(self.marks)
         return average_marks > 50
-    
+
+
 student1 = Student("Witold", [60, 70, 80])
 student2 = Student("Natalia", [40, 45, 55])
 
